@@ -33,11 +33,25 @@ header{
     margin-right:285px ;
 }
 .myAnimate{
-    animation: myAnimate 4s;
+    animation: myAnimate 5s;
 }
 @keyframes myAnimate{
-    0%,67%{opacity: 0;}
-    33%,100%{opacity: 1;}
+    0%,
+    20%,
+    40% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    10%,
+    30%,
+    50%{
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: scale(1) translateX(-900%);
+    }
 }
 .container h1{
     font-family: "Playfair Display - Black";
@@ -92,6 +106,7 @@ header{
     margin:auto;
     text-align: center;
     margin-top: 65px;
+   
 }
 .header-button{
     width: 120px;
@@ -103,6 +118,14 @@ header{
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
+    transition: all 0.2s ease-in;
+}
+.header-button:hover{
+    transform: scale(1.5) translateX(10px, -10px);
+    background-color: transparent;
+    border: 2px solid #00e0d0;
+    color: #00e0d0;
+
 }
 
 main{
@@ -237,11 +260,20 @@ footer{
     padding: 17px 16px;
  }
  .button-footer{
-     padding: 14px 22px;
-     border: 1px solid #ffffff;
+    padding: 14px 22px;
+    border: 1px solid #ffffff;
     background-color: #ffffff;
     opacity: 0.5;
+    transition: all 0.2s ease-in;
  }
+
+.button-foote:hover{
+    transform: scale(1.5) translateX(10px, -10px);
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+
+}
  .links{
      margin-top: 27px;
  }
