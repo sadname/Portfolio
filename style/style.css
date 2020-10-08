@@ -1,0 +1,236 @@
+*{
+    box-sizing:border-box ;
+}
+body{
+    font-family:'Roboto', sans-serif;
+    color: #ffff;
+}
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/headerBG.png);
+    background-size: cover;
+    background-position: center;
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.img-header{
+    margin-top: 15px;
+    margin-right:285px ;
+}
+.myAnimate{
+    animation: myAnimate 4s;
+}
+@keyframes myAnimate{
+    0%,67%{opacity: 0;}
+    33%,100%{opacity: 1;}
+}
+.container h1{
+    font-family: "Playfair Display - Black";
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+.container hr{
+    width: 50px;
+    height: 1px;
+    background-color: #00e0d0;
+}
+
+.menu ul{
+    display: flex;
+    margin: auto;
+    
+}
+.menu li a{
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffff;
+    padding: 5px;
+    font-family: "Roboto - Black";
+    text-decoration: none;
+}
+.header-text{
+    margin-top: 25%;
+    
+}
+.header-text p{
+    text-align: center;
+    max-width: 771px;
+}
+.header-text hr{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.button-header{
+    margin:auto;
+    text-align: center;
+    margin-top: 65px;
+}
+.header-button{
+    width: 120px;
+    height: 40px;
+    border: 1px solid #00e0d0;
+    background-color: transparent;
+    color: #00e0d0;
+    font-family: "Hammersmith One";
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/mainBG.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-input{
+    margin-top: 100px;
+    font-family: "Playfair Display";
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 3px;
+}
+.main-text{
+    max-width: 770px;
+    display: flex;
+    margin-top: 42px;
+    align-items: center;
+    justify-content: center;
+}
+.text-main{
+    color: #ffffff;
+    font-family: "Playfair Display";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+}
+.subtitle-text{
+    margin-top: 52px;
+    
+
+}
+.subtitle-text1{
+    color: #ffffff;
+    font-family: "Roboto - Black";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+.subtitle-text2{
+    margin-top: 13px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.icons{
+    margin-top: 52px;
+}
+.icons img{
+    padding-left: 15px;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/footer.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-block {
+    position: relative; 
+    max-width: 350px;
+    margin-top: 90px;
+    
+ }
+ .img-footer{
+     margin-bottom:37px;
+ }
+ .footer-link{
+     margin-bottom: 40px;
+    color: #ffffff;
+    font-family: "Roboto - Black";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+ }
+ .footer-text1{
+     max-width: 283px;
+     margin-right: 36px;
+     margin-bottom: 82px;
+     color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.35px;
+ }
+ .img-footer2{
+     margin-right: 16px;
+ }
+ .img-footer3{
+    margin-right: 13px;
+ }
+ .footer-text2{
+     max-width: 237px;
+     margin-bottom: 27px;
+     margin-right: 62px;;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.35px;
+ }
+ .input{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    padding: 17px 16px;
+ }
+ .button-footer{
+     padding: 14px 22px;
+     border: 1px solid #ffffff;
+    background-color: #ffffff;
+    opacity: 0.5;
+ }
+ .links{
+     margin-top: 27px;
+ }
