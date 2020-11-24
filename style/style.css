@@ -99,6 +99,18 @@ header{
     justify-content: center;
     align-items: center;
 }
+
+.banner-tick samp{
+    font-size: 5em;
+    font-weight: 500;
+    color: #00e0d0;
+}
+
+.header-subtitle {
+
+}
+
+
 .header-text h1:hover{
     transform: scale(1.2) translate(5px, -5px);
     background-color: transparent;
